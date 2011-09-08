@@ -156,6 +156,14 @@ input[type="file"] > intput[type="button"]:focus {
 /* =Layout
 -------------------------------------------------------------- */
 
+html, body {
+	height: 100%;
+}
+
+#wrapper {
+	height: 100%;
+}
+
 /*
 LAYOUT: Two columns
 DESCRIPTION: Two-column fixed layout with one sidebar right of content
@@ -234,6 +242,7 @@ code {
 
 #wrapper-inner {
 	background: #ffffff;
+	min-height: 85%;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0 20px;
