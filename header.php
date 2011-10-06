@@ -78,10 +78,10 @@
 
 
 			<div id="facebook-link">
-				<a href="http://facebook.com/" title="Like us on Facebook!"><img src="<?php bloginfo('template_directory'); ?>/images/facebook-icon.png" /></a>
+				<a href="http://www.facebook.com/DarkroomSoftware" title="Like us on Facebook!"><img src="<?php bloginfo('template_directory'); ?>/images/facebook-icon.png" /></a>
 			</div>
 			<div id="twitter-link">
-				<a href="http://twitter.com/" title="Follow us on Twitter!"><img src="<?php bloginfo('template_directory'); ?>/images/twitter-icon.png" /></a>
+				<a href="http://twitter.com/#!/darkroomsw" title="Follow us on Twitter!"><img src="<?php bloginfo('template_directory'); ?>/images/twitter-icon.png" /></a>
 			</div>
 
 		</div><!-- #main-nav -->
