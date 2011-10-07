@@ -37,7 +37,10 @@
 		</div><!-- .entry-content -->
 	</div><!-- #post-0 -->
 <?php endif; ?>
-
+<div style="float: right; width: 192px;">
+<?php get_sidebar('primary-widget-area'); ?>
+</div>
+<div style="float: left; width: 630px;">
 <?php
 	/* Start the Loop.
 	 *
@@ -171,7 +174,7 @@
 	<?php endif; // This was the if statement that broke the loop into three parts based on categories. ?>
 
 <?php endwhile; // End the loop. Whew. ?>
-
+</div>
 <?php /* Display navigation to next/previous pages when applicable */ ?>
 <?php if (  $wp_query->max_num_pages > 1 ) : ?>
 				<div id="nav-below" class="navigation">
