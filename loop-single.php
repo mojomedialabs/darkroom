@@ -14,7 +14,10 @@
  * @since Twenty Ten 1.2
  */
 ?>
-
+<div style="float: right; width: 192px;">
+<?php get_sidebar('primary-widget-area'); ?>
+</div>
+<div style="float: left; width: 630px;">
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 				<div id="nav-above" class="navigation">
@@ -65,3 +68,4 @@
 				<?php comments_template( '', true ); ?>
 
 <?php endwhile; // end of the loop. ?>
+</div>

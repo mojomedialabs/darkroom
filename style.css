@@ -271,7 +271,7 @@ code {
 }
 
 #footer-bottom {
-	background: #ed1849;
+	background: #dc0c41; /*#ed1849;*/
 	color: #ffffff;
 	height: 42px;
 	width: 100%;
@@ -537,7 +537,7 @@ display: inline;
 #main-nav div.menu ul {
 	font-size: 13px;
 	text-decoration: none;
-	text-transform: lowercase;	
+	text-transform: lowercase;
 }
 
 #main-nav {
