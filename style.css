@@ -620,7 +620,7 @@ display: inline;
 	color: #ffffff;
 }
 
-#main-nav li:hover > a {
+#main-nav li:hover > a, #main-nav li.current-menu-item > a, #main-nav li.current-menu-ancestor > a {
 	background: #ed1849 url('images/main-menu-background-hover.png') repeat-x;
 }
 
