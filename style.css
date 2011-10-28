@@ -285,14 +285,18 @@ code {
 #copyright {
 	float: left;
 	font-size: 10px;
-	padding: 18px 0 0 75px;
-	width: 455px;
+	padding: 18px 0 0 45px;
+	width: 485px;
+}
+
+#copyright a {
+	color: #ffffff;
 }
 
 #footer-buttons {
 	float: left;
 	padding: 0 0 0 50px;
-	width: 375px;
+	width: 245px;
 }
 
 #footer-buttons ul {
@@ -326,6 +330,19 @@ code {
 
 #contact-button {
 	width: 70px !important;
+}
+
+#footer-search {
+	float: right;
+	padding-top: 10px;
+	width: 155px !important;
+}
+
+#footer-search input[type="text"] {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	width: 89px;
 }
 
 /* End Overlapping sticky Footer! */
@@ -506,7 +523,7 @@ a:hover {
 	float: left;
 	font-size: 30px;
 	margin: 0 0 9px 48px;
-	width: 700px;
+	width: 500px;
 }
 
 #site-title a {
@@ -516,12 +533,12 @@ a:hover {
 
 #version-links {
 	float: right;
-	margin: 0 29px 0 0;
+	margin: 0 23px 0 0;
 	width: 150px;
 }
 
 #version-links a {
-display: inline;
+	display: inline;
 }
 
 #site-description {
@@ -620,7 +637,10 @@ display: inline;
 	color: #ffffff;
 }
 
-#main-nav li:hover > a, #main-nav li.current-menu-item > a, #main-nav li.current-menu-ancestor > a {
+#main-nav li:hover > a,
+#main-nav li.current-menu-item > a,
+#main-nav li.current-menu-ancestor > a,
+#main-nav li.current_page_parent > a {
 	background: #ed1849 url('images/main-menu-background-hover.png') repeat-x;
 }
 
@@ -1458,7 +1478,6 @@ img#wpstats {
 	display: block;
 	margin: 0 auto 10px;
 }
-
 
 /* =Mobile Safari ( iPad, iPhone and iPod Touch )
 -------------------------------------------------------------- */

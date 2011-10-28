@@ -60,7 +60,7 @@
 <body <?php body_class(); ?>>
 <div id="wrapper" class="hfeed">
 	<div id="header">
-		<div id="header-info">	
+		<div id="header-info">
 			<h1 id="site-title">
 				<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php bloginfo('template_directory'); ?>/images/darkroom-logo.png" /></a>
 			</h1>

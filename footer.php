@@ -18,7 +18,7 @@
 		<div id="footer-bottom">
 			<div id="footer-bottom-inner">
 				<div id="copyright">
-					&copy;Copyright <?php echo date("Y"); ?> Darkroom Software, LLC. All Rights Reserved.
+					Content &copy;copyright <?php echo date("Y"); ?> Darkroom Software, LLC. All Rights Reserved. Proudly made by <a href="http://mojomedialabs.com/">Mojo Media Labs</a>.
 				</div><!-- #copyright -->
 				<div id="footer-buttons">
 					<ul>
@@ -37,9 +37,16 @@
 							<a href="<?php echo home_url( '/' ); ?>contact-us">
 								Contact Us
 							</a>
-						</li>				
+						</li>
 					</ul>
-				</div><!-- #footer-buttons -->			
+				</div><!-- #footer-buttons -->
+				<div id="footer-search">
+					<form action="<?php echo home_url( '/' ); ?>" method="get" role="search">
+						<label for="s" class="screen-reader-text">Search for:</label>
+						<input type="text" id="s" name="s" value="<?php echo get_search_query() ?>" />
+						<input type="image" value="Search" id="searchsubmit" src="<?php bloginfo('template_directory'); ?>/images/search.png" />
+					</form>
+				</div>
 			</div><!-- #footer-bottom-inner -->
 		</div><!-- #footer-bottom -->
 	</div><!-- #footer -->
