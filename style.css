@@ -682,6 +682,15 @@ a:hover {
 	z-index: 10;
 }
 
+#youtube-link a {
+	background: transparent !important;
+	left: 940px;
+	position: relative;
+	top: -78px;
+	width: 18px;
+	z-index: 10;
+}
+
 /* Begin Subpage Menu */
 
 #subpage-menu ul {

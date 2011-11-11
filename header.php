@@ -84,6 +84,9 @@
 			<div id="twitter-link">
 				<a href="http://twitter.com/#!/darkroomsw" title="Follow us on Twitter!"><img src="<?php bloginfo('template_directory'); ?>/images/twitter-icon.png" /></a>
 			</div>
+			<div id="youtube-link">
+				<a href="http://www.youtube.com/user/DarkroomSoftware" title="Visit our YouTube channel!"><img src="<?php bloginfo('template_directory'); ?>/images/youtube-icon.png" /></a>
+			</div>
 
 		</div><!-- #main-nav -->
 	</div><!-- #header -->
