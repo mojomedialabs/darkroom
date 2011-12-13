@@ -79,13 +79,13 @@
 
 
 			<div id="facebook-link">
-				<a href="http://www.facebook.com/DarkroomSoftware" title="Like us on Facebook!"><img src="<?php bloginfo('template_directory'); ?>/images/facebook-icon.png" /></a>
+				<a href="http://www.facebook.com/DarkroomSoftware" target="_blank" title="Like us on Facebook!"><img src="<?php bloginfo('template_directory'); ?>/images/facebook-icon.png" /></a>
 			</div>
 			<div id="twitter-link">
-				<a href="http://twitter.com/#!/darkroomsw" title="Follow us on Twitter!"><img src="<?php bloginfo('template_directory'); ?>/images/twitter-icon.png" /></a>
+				<a href="http://twitter.com/#!/darkroomsw" target="_blank" title="Follow us on Twitter!"><img src="<?php bloginfo('template_directory'); ?>/images/twitter-icon.png" /></a>
 			</div>
 			<div id="youtube-link">
-				<a href="http://www.youtube.com/user/DarkroomSoftware" title="Visit our YouTube channel!"><img src="<?php bloginfo('template_directory'); ?>/images/youtube-icon.png" /></a>
+				<a href="http://www.youtube.com/user/DarkroomSoftware" target="_blank" title="Visit our YouTube channel!"><img src="<?php bloginfo('template_directory'); ?>/images/youtube-icon.png" /></a>
 			</div>
 
 		</div><!-- #main-nav -->

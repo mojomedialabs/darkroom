@@ -18,7 +18,7 @@
 		<div id="footer-bottom">
 			<div id="footer-bottom-inner">
 				<div id="copyright">
-					Content &copy;copyright <?php echo date("Y"); ?> Darkroom Software, LLC. All Rights Reserved. Proudly made by <a href="http://mojomedialabs.com/">Mojo Media Labs</a>.
+					Content &copy;copyright <?php echo date("Y"); ?> Darkroom Software, LLC. All Rights Reserved. Made by <a href="http://mojomedialabs.com/">Mojo Media Labs</a>.
 				</div><!-- #copyright -->
 				<div id="footer-buttons">
 					<ul>
